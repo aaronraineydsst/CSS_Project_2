@@ -1,0 +1,168 @@
+header {
+  height: 120px;
+  background-color: #bdcbd9;
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+
+footer {
+  height: 150px;
+  background-color: #bdcbd9;
+}
+
+.navbar-inner{
+   text-align: center;
+}
+
+.navbar-outer {
+    display: inline-block;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ----- logo ----- */
+
+header h1 {
+  float: left;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #424254;
+}
+
+header h1 a:hover {
+  color: red;
+}
+
+
+
+/* ----- navigation ----- */
+
+.top-nav {
+  float: left;
+  margin: 38px;
+}
+
+.top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+
+.top-nav ul li a {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #424254;
+  text-decoration: none;
+}
+
+.top-nav ul li a:hover {
+  color: red;
+}
+
+/*-----First page------*/
+#hero {
+ background:url(http://www.flagpictures.org/downloads/print/usa1.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+div.wrapper {
+  width: 95%;
+  padding-right: 60px;
+  padding-left: 1px;
+
+}
+
+div.container {
+    width: 100%;
+    border: 28px solid blue;
+    text-align: center;
+}
+
+div.container2 {
+  width: 100%;
+  border: 30px solid red;
+  text-align: center;
+}
+
+div.container3 {
+  width: 100%;
+  border: 30px solid black;
+  padding-right: 60px;
+  text-align: center;
+}
+
+div.container4 {
+  width: 100%;
+  border: 30px solid green;
+  text-align: center;
+}
+
+div.container5 {
+  width: 100%auto;
+  border: 30px solid tan:
+  text-align: center;
+
+}
+
+
+@font-face {
+  font-family: 'Alegreya', serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Shrikhand', cursive;
+  font-family: 'Kreon', serif;
+  font-family: 'Roboto', sans-serif;
+  src:url(https://fonts.googleapis.com/css?family=Alegreya|Kreon|Patua+One||Roboto:400,700|Shrikhand);
+  font-weight: bold;
+  }
+
+  @media screen and (min-width:992px) {
+  /* Assign multiple styles in here for screens larger than 991px */
+  #sample-element {
+    font-size:10px;
+  }
+  h4,h5,h6,p {
+    font-size:20px;
+  }
+}
+
+  p {
+    font-family: 'Patua One', cursive;
+
+  }
+
+  h1 {
+    font-family: 'Alegreya', serif;
+  }
+
+  h2,h4 {
+    font-family: 'Kreon', serif;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-color: cornsilk;
+}
